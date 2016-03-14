@@ -1,0 +1,241 @@
+fileFormatVersion: 2
+guid: 57e7a9099fdf2e74081e2697f7c32e63
+timeCreated: 1445905136
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: FurFeedback
+    100002: group
+    100004: group6
+    100006: group7
+    100008: Llama_FurFeedback
+    100010: pasted__pasted__polySurface14
+    100012: pasted__polySurface13
+    100014: pasted__polySurface14
+    100016: pasted__polySurface15
+    100018: pasted__polySurface6
+    100020: pasted__polySurface6 1
+    100022: place3dTexture1
+    100024: polySurface12
+    100026: polySurface12 1
+    100028: polySurface12_FurFeedback
+    100030: polySurface13
+    100032: polySurface15
+    100034: polySurface16
+    100036: polySurface21
+    100038: polySurface22
+    100040: polySurface23
+    100042: polySurface24
+    100044: polySurface25
+    100046: polySurface26
+    100048: polySurface26 1
+    100050: polySurface27
+    100052: polySurface28
+    100054: polySurface29
+    100056: polySurface30
+    100058: polySurface31
+    100060: polySurface32
+    100062: polySurface34
+    100064: polySurface35
+    100066: polySurface36
+    100068: polySurface37
+    100070: polySurface38
+    100072: polySurface39
+    100074: polySurface40
+    100076: polySurface41
+    100078: polySurface41 1
+    100080: polySurface42
+    100082: polySurface43
+    100084: polySurface6
+    100086: pPlane1
+    100088: //RootNode
+    100090: spotLight1
+    100092: transform1
+    100094: transform10
+    100096: transform11
+    100098: transform12
+    100100: transform13
+    100102: transform14
+    100104: transform15
+    100106: transform16
+    100108: transform17
+    100110: transform18
+    100112: transform19
+    100114: transform2
+    100116: transform20
+    100118: transform21
+    100120: transform22
+    100122: transform3
+    100124: transform4
+    100126: transform5
+    100128: transform6
+    100130: transform7
+    100132: transform8
+    100134: transform9
+    400000: FurFeedback
+    400002: group
+    400004: group6
+    400006: group7
+    400008: Llama_FurFeedback
+    400010: pasted__pasted__polySurface14
+    400012: pasted__polySurface13
+    400014: pasted__polySurface14
+    400016: pasted__polySurface15
+    400018: pasted__polySurface6
+    400020: pasted__polySurface6 1
+    400022: place3dTexture1
+    400024: polySurface12
+    400026: polySurface12 1
+    400028: polySurface12_FurFeedback
+    400030: polySurface13
+    400032: polySurface15
+    400034: polySurface16
+    400036: polySurface21
+    400038: polySurface22
+    400040: polySurface23
+    400042: polySurface24
+    400044: polySurface25
+    400046: polySurface26
+    400048: polySurface26 1
+    400050: polySurface27
+    400052: polySurface28
+    400054: polySurface29
+    400056: polySurface30
+    400058: polySurface31
+    400060: polySurface32
+    400062: polySurface34
+    400064: polySurface35
+    400066: polySurface36
+    400068: polySurface37
+    400070: polySurface38
+    400072: polySurface39
+    400074: polySurface40
+    400076: polySurface41
+    400078: polySurface41 1
+    400080: polySurface42
+    400082: polySurface43
+    400084: polySurface6
+    400086: pPlane1
+    400088: //RootNode
+    400090: spotLight1
+    400092: transform1
+    400094: transform10
+    400096: transform11
+    400098: transform12
+    400100: transform13
+    400102: transform14
+    400104: transform15
+    400106: transform16
+    400108: transform17
+    400110: transform18
+    400112: transform19
+    400114: transform2
+    400116: transform20
+    400118: transform21
+    400120: transform22
+    400122: transform3
+    400124: transform4
+    400126: transform5
+    400128: transform6
+    400130: transform7
+    400132: transform8
+    400134: transform9
+    2300000: polySurface30
+    2300002: polySurface31
+    2300004: polySurface32
+    2300006: polySurface34
+    2300008: polySurface35
+    2300010: polySurface36
+    2300012: polySurface37
+    2300014: polySurface38
+    2300016: polySurface41
+    2300018: polySurface43
+    2300020: pPlane1
+    3300000: polySurface30
+    3300002: polySurface31
+    3300004: polySurface32
+    3300006: polySurface34
+    3300008: polySurface35
+    3300010: polySurface36
+    3300012: polySurface37
+    3300014: polySurface38
+    3300016: polySurface41
+    3300018: polySurface43
+    3300020: pPlane1
+    4300000: polySurface30
+    4300002: polySurface31
+    4300004: polySurface32
+    4300006: polySurface34
+    4300008: polySurface35
+    4300010: polySurface36
+    4300012: polySurface37
+    4300014: polySurface38
+    4300016: polySurface43
+    4300018: polySurface41
+    4300020: pPlane1
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 10
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,286 @@
+fileFormatVersion: 2
+guid: 53742bccb791af64a8b92ee1ddac2c3e
+timeCreated: 1445813945
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: group
+    100002: group1
+    100004: group2
+    100006: group3
+    100008: group4
+    100010: group_pasted__pCube1
+    100012: pasted__group1
+    100014: pasted__pasted__pCube1
+    100016: pasted__pCube1
+    100018: pasted__pCube1 1
+    100020: pasted__pPlane3
+    100022: pasted__pPlane5
+    100024: pCube1
+    100026: polySurface1
+    100028: polySurface1 1
+    100030: polySurface2
+    100032: polySurface3
+    100034: polySurface4
+    100036: polySurface5
+    100038: polySurface5 1
+    100040: polySurface6
+    100042: pPlane1
+    100044: pPlane2
+    100046: pPlane3
+    100048: pPlane4
+    100050: pPlane5
+    100052: //RootNode
+    100054: transform1
+    100056: transform10
+    100058: transform11
+    100060: transform12
+    100062: transform13
+    100064: transform14
+    100066: transform15
+    100068: transform16
+    100070: transform17
+    100072: transform18
+    100074: transform19
+    100076: transform2
+    100078: transform3
+    100080: transform4
+    100082: transform5
+    100084: transform6
+    100086: transform7
+    100088: transform8
+    100090: transform9
+    400000: group
+    400002: group1
+    400004: group2
+    400006: group3
+    400008: group4
+    400010: group_pasted__pCube1
+    400012: pasted__group1
+    400014: pasted__pasted__pCube1
+    400016: pasted__pCube1
+    400018: pasted__pCube1 1
+    400020: pasted__pPlane3
+    400022: pasted__pPlane5
+    400024: pCube1
+    400026: polySurface1
+    400028: polySurface1 1
+    400030: polySurface2
+    400032: polySurface3
+    400034: polySurface4
+    400036: polySurface5
+    400038: polySurface5 1
+    400040: polySurface6
+    400042: pPlane1
+    400044: pPlane2
+    400046: pPlane3
+    400048: pPlane4
+    400050: pPlane5
+    400052: //RootNode
+    400054: transform1
+    400056: transform10
+    400058: transform11
+    400060: transform12
+    400062: transform13
+    400064: transform14
+    400066: transform15
+    400068: transform16
+    400070: transform17
+    400072: transform18
+    400074: transform19
+    400076: transform2
+    400078: transform3
+    400080: transform4
+    400082: transform5
+    400084: transform6
+    400086: transform7
+    400088: transform8
+    400090: transform9
+    2300000: polySurface6
+    3300000: polySurface6
+    4300000: polySurface6
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 2
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: group
+        weight: 1
+      - path: group/pasted__pCube1
+        weight: 1
+      - path: group/pasted__pCube1/transform4
+        weight: 1
+      - path: group1
+        weight: 1
+      - path: group1/pasted__pCube1 1
+        weight: 1
+      - path: group1/pasted__pCube1 1/transform3
+        weight: 1
+      - path: group2
+        weight: 1
+      - path: group2/pasted__group1
+        weight: 1
+      - path: group2/pasted__group1/pasted__pasted__pCube1
+        weight: 1
+      - path: group2/pasted__group1/pasted__pasted__pCube1/transform1
+        weight: 1
+      - path: group3
+        weight: 1
+      - path: group3/pasted__pPlane3
+        weight: 1
+      - path: group3/pasted__pPlane3/transform15
+        weight: 1
+      - path: group4
+        weight: 1
+      - path: group4/pasted__pPlane5
+        weight: 1
+      - path: group4/pasted__pPlane5/transform14
+        weight: 1
+      - path: group_pasted__pCube1
+        weight: 1
+      - path: group_pasted__pCube1/transform5
+        weight: 1
+      - path: pCube1
+        weight: 1
+      - path: pCube1/transform2
+        weight: 1
+      - path: polySurface1
+        weight: 1
+      - path: polySurface1/transform19
+        weight: 1
+      - path: polySurface5
+        weight: 1
+      - path: polySurface5/transform12
+        weight: 1
+      - path: polySurface6
+        weight: 1
+      - path: pPlane1
+        weight: 1
+      - path: pPlane1/transform6
+        weight: 1
+      - path: pPlane2
+        weight: 1
+      - path: pPlane2/polySurface1 1
+        weight: 1
+      - path: pPlane2/polySurface1 1/transform13
+        weight: 1
+      - path: pPlane2/polySurface2
+        weight: 1
+      - path: pPlane2/polySurface2/transform10
+        weight: 1
+      - path: pPlane2/polySurface3
+        weight: 1
+      - path: pPlane2/polySurface3/transform9
+        weight: 1
+      - path: pPlane2/polySurface4
+        weight: 1
+      - path: pPlane2/polySurface4/transform8
+        weight: 1
+      - path: pPlane2/polySurface5 1
+        weight: 1
+      - path: pPlane2/polySurface5 1/transform11
+        weight: 1
+      - path: pPlane2/transform7
+        weight: 1
+      - path: pPlane3
+        weight: 1
+      - path: pPlane3/transform18
+        weight: 1
+      - path: pPlane4
+        weight: 1
+      - path: pPlane4/transform17
+        weight: 1
+      - path: pPlane5
+        weight: 1
+      - path: pPlane5/transform16
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 10
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
