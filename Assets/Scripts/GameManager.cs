@@ -1,4 +1,16 @@
-﻿using UnityEngine;
+﻿/*
+ * Attached to GameManager empty GameObject
+ *
+ * Features:
+ * Signals fading class to fade the scene in or out
+ * Singleton class
+ * Controls scene navigation
+ *
+ * Written by Grace Barrett-Snyder
+ *
+ */
+
+using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
 
@@ -17,11 +29,11 @@ public class GameManager : MonoBehaviour {
             gameManager.fading = GetComponent<Fading>();
             currentLevel = 0;
             gameManager.doorOpened = false;
-            DontDestroyOnLoad(gameManager);
+            DontDestroyOnLoad(gameManager); // Persistent in each scene
         }
         else
         {
-            Destroy(this);
+            Destroy(this); // Destroys copies of this class
         }
     }
 
@@ -35,12 +47,12 @@ public class GameManager : MonoBehaviour {
         else if (currentLevel == 2)
         {
             if (Input.GetKeyDown(KeyCode.Space))
-            {
+            { // Space is pressed
                 StartCoroutine(LoadSceneAfterDelay(currentLevel - 1));
             }
             else if (Input.GetKeyDown(KeyCode.Escape))
-            {
-                Application.Quit();
+            { // Esc is pressed
+                Application.Quit(); // Close application
             }
         }
     }
@@ -55,14 +67,10 @@ public class GameManager : MonoBehaviour {
 
         // Load next scene
         Application.LoadLevel(level);
-
-        //yield return new WaitForSeconds(0.02f);
-        // Fade in new scene
-        //fading.beginFade(-1);
     }
 
     void OnLevelWasLoaded(int level)
-    {
+    { // Fade in when the new scene is loaded
         currentLevel = level;
         fading.beginFade(-1);
     }

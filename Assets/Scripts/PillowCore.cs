@@ -3,12 +3,12 @@ using System.Collections;
 
 public class PillowCore : MonoBehaviour {
 
-    public Rigidbody parentsRb;
+    public Rigidbody parentsRb; // Reference to main pillow's rigidbody
 
-    AudioSource[] pillowSounds;
+    AudioSource[] pillowSounds; // Reference to array of pillow sound effects
 
-    Collider previousCollider;
-    bool landed;
+    Collider previousCollider; // Collider from previous collision
+    bool landed; // Whether the pillow has landed
 
     void Awake()
     {
