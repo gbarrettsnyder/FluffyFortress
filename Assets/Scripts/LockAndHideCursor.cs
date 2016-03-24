@@ -1,6 +1,7 @@
 ﻿/*
  * Locks and Hides Default Cursor
  * 
+ * Written by Grace Barrett-Snyder
  */
 
 using UnityEngine;

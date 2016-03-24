@@ -11,17 +11,14 @@ public class SpawnPillows : MonoBehaviour {
     public GameObject cursor;
 
     Transform[] transforms;
-    //AudioSource[] pillowSounds;
 
     void Awake()
     {
-        // Get array of transforms
+        // Get array of transforms where the pillows will spawn
         transforms = transformParentObject.GetComponentsInChildren<Transform>();
     }
 
 	void Start () {
-        // Get pillow sounds from the AudioManager
-        //pillowSounds = AudioManager.audioManager.PillowSounds;
         spawnPillows();
 	}
 
@@ -44,7 +41,7 @@ public class SpawnPillows : MonoBehaviour {
             // Default pillows
 			else {
                 currentPrefab = pillowPrefab;
-                name = "Pillow" + i;
+                name = "Pillow" + i; // Helps with debugging
 			}
 
             // Instantiate a pillow with the current transform
@@ -68,7 +65,7 @@ public class SpawnPillows : MonoBehaviour {
 
             // Give the pillow a pillow core
             PillowCore pillowCore = pillow.gameObject.transform.GetChild(0).gameObject.AddComponent<PillowCore>();
-            pillowCore.parentsRb = rb; // sets up reference to pillow's rigidbody
+            pillowCore.parentsRb = rb; // Set up reference to pillow's rigidbody
         }
     }
 }
